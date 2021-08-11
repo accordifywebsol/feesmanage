@@ -49,10 +49,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                       <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                          <a class="nav-link active" href="#courses" role="tab" data-toggle="tab">TERMS</a>
+                          <a class="nav-link active" href="#courses" role="tab" data-toggle="tab">SECTION</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#add" role="tab" data-toggle="tab">ADD TERM</a>
+                          <a class="nav-link" href="#add" role="tab" data-toggle="tab">ADD SECTION</a>
                         </li>
                       </ul>
 
@@ -65,7 +65,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                               <tr>
                                 <th>#</th>
                                 <th>CLASS</th>
-                                <th>TERM</th>
+                                <th>SECTION</th>
                                 <th>PAYABLE FEES</th>
                                 <th>ACTION</th>
                               </tr>
@@ -116,15 +116,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </select>  
                                   </div>
                                   <div class="form-group">
-                                    <label>TERM NAME</label>
+                                    <label>SECTION NAME</label>
                                       <input autocomplete="off" value="<?php ?>" type="text" name="tname" class="form-control">
                                   </div>
                                   <div class="form-group">
-                                    <label>PAYABLE FEES FOR THE TERM</label>
+                                    <label>PAYABLE FEES FOR THE SECTION</label>
                                       <input autocomplete="off" type="tel" value="<?php  ?>" name="tfees" class="form-control money">
                                   </div>
                                   <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">ADD NEW TERM</button>
+                                    <button type="submit" class="btn btn-primary">ADD NEW SECTION</button>
                                   </div>
                                 </div>
                               </form>

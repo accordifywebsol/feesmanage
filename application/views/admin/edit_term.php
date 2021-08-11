@@ -77,11 +77,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                   <input autocomplete="off" value="<?php echo $tname ?>" type="text" name="tname" class="form-control">
                               </div>
                               <div class="form-group">
-                                <label>PAYABLE FEES FOR THE TERM</label>
+                                <label>PAYABLE FEES FOR THE SECTION</label>
                                   <input autocomplete="off" type="tel" value="<?php echo $tfees ?>" name="tfees" class="form-control money">
                               </div>
                               <div class="form-group">
-                                <button type="submit" class="btn btn-primary">EDIT TERM</button>
+                                <button type="submit" class="btn btn-primary">EDIT SECTION</button>
                               </div>
                             </div>
                           </form>

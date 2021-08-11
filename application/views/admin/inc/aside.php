@@ -52,7 +52,7 @@
               <li class="nav-item">
                 <a href="<?php echo base_url() ?>admin/management/term" class="nav-link  <?php if($page_s_name=='term') echo 'active'; ?>">
                   <i class="fa fa-angle-double-right nav-icon"></i>
-                  <p>Term</p>
+                  <p>Section</p>
                 </a>
               </li>
               

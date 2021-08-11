@@ -348,4 +348,17 @@ class Admin extends CI_Controller {
             echo '<option value="' . $row['ID'] . '">' . $row['NAME'] . '</option>';
         }
     }
+
+   /* public function __construct()
+     {
+    parent::__construct();
+    if( ! $this->session->userdata('id') )
+    return redirect('login');
+    
+  }
+  public function logout()
+  {
+    $this->session->unset_userdata('id');
+	return redirect('login');
+  }   */
 }
