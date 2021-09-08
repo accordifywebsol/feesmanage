@@ -53,3 +53,16 @@ $route['default_controller'] = 'authe';
 //$route['default_controller'] = 'Users';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+
+
+//Student Registration
+$route['default_controller'] = 'auth/register';
+$route['signup'] = 'auth/register';
+$route['signin'] = 'auth/login';
+$route['profile'] = 'auth/index';
+$route['setting'] = 'auth/changepwd';
+$route['profile/edit'] = 'auth/edit';
+$route['forgotpwd'] = 'auth/forgotpassword';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
